@@ -38,12 +38,12 @@ class DetailsCountryViewController: UIViewController{
     
     private func setupFields(){
         self.name.text = "Name: \(country!.name ?? "")"
-        self.nativeName.text = "NativeName: \(country!.nativeName ?? "")"
+        self.nativeName.text = "Native Name: \(country!.nativeName ?? "")"
         self.Capital.text = "Capital: \(country!.capital ?? "")"
         self.region.text = "Region: \(country!.region ?? "")"
         self.subregion.text = "Subregion: \(country!.subregion ?? "")"
         self.pupolation.text = "Pupolation: \(country!.population ?? 0)"
-        self.numericCode.text = "Numeri Code: \(country!.numericCode ?? "")"
+        self.numericCode.text = "Numeric Code: \(country!.numericCode ?? "")"
         
     }
     
